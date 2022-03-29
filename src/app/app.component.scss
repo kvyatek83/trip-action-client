@@ -1,0 +1,23 @@
+$client-options-height: 10vh;
+
+app-client-options {
+    overflow: hidden;
+    background-color: skyblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $client-options-height;
+    z-index: 1;
+}
+
+app-user-list {
+    width: 100vw;
+    position: relative;
+    top: $client-options-height;
+}
+
+app-scroll-to-top {
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+}

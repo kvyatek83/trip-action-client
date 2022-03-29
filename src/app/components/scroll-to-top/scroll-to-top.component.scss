@@ -1,0 +1,23 @@
+.scroll-to-top {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+
+    .scroll-button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+    }
+}
+
+.show-scroll-to-top {
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+    }
+}

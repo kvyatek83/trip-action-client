@@ -1,0 +1,8 @@
+<mat-form-field appearance="outline">
+  <mat-label>Filter by gender</mat-label>
+  <mat-select [formControl]="genderTerm" disableOptionCentering>
+    <mat-option *ngFor="let gender of genderList" [value]="gender">
+      {{ gender }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

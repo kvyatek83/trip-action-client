@@ -1,0 +1,3 @@
+<mat-button-toggle-group [formControl]="sortMethod">
+    <mat-button-toggle *ngFor="let method of sortMethods" [value]="method">{{method}}</mat-button-toggle>
+</mat-button-toggle-group>

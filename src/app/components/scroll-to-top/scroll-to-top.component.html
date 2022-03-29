@@ -1,0 +1,7 @@
+<ng-container *ngIf="windowScrolled">
+  <div class="scroll-to-top" [class.show-scroll-to-top]="windowScrolled">
+    <button type="button" class="scroll-button" (click)="scrollToTop()">
+      <span class="material-icons">keyboard_arrow_up</span>
+    </button>
+  </div>
+</ng-container>

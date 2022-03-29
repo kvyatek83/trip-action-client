@@ -1,0 +1,8 @@
+<div class="card">
+  <div class="avatar"><img [src]="user.avatar" /></div>
+  <div class="user-details">
+    <span class="user-name">{{ user.firstName }} {{ user.lastName }}</span>
+    <span class="user-email">{{ user.email }}</span>
+    <img class="gender-icon" [src]="user.gender | genderIcon" />
+  </div>
+</div>
