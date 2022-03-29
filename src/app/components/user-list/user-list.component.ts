@@ -9,7 +9,7 @@ import { User } from 'src/app/types/types';
 export class UserListComponent {
   @Input() users: User[];
 
-  trackByUserId(_: number, user: User): string {
+  trackByUserId(_: number, user: User): number {
     return user.id;
   }
 }
